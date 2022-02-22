@@ -1,0 +1,21 @@
+.icon{
+    font-size:1.2rem;
+}
+.icon-edit{
+    color: #0096BB;
+}
+.icon-delete{
+    color:#F93B11;
+}
+
+@media(max-width:900px){
+    .divider{
+        display: none;
+    }
+    .icon{
+        display: block;
+    }
+    .icon-edit{
+        margin-bottom: 2rem;
+    }
+}

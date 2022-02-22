@@ -1,0 +1,42 @@
+.table{
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+.table-options{
+    display: flex;
+    justify-content: flex-end;
+    .table-options_inpt{
+        margin-right: 1rem;
+        &:last-child{
+            margin-right: 0;
+        }
+    }
+}
+td{
+    color: #88868B;
+}
+.buttons-form{
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media(max-width:600px){
+  .table-inpt{
+      display:none;
+  }
+}
+
+@media(max-width:600px){
+  .table-inpt{
+      display:none;
+  }
+}
+
+@media(max-width:450px){
+  .table-select {
+      display:none;
+  }
+  .table-btn-search{
+    display: none;
+  }
+}

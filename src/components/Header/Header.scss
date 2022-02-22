@@ -1,0 +1,27 @@
+header{
+    height: 70px;
+    background-color: white;
+    box-shadow: 0px 4px 4px rgba(245, 245, 245, 0.80);
+    .cnt-header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+        padding: 2rem;
+        color: #88868B;
+        .notification{
+            font-size: 1rem;
+            position: relative;
+            &:after{
+                content: " ";
+                position: absolute;
+                width: 8px;
+                height: 8px;
+                border-radius: 100%;
+                top: 2px;
+                right: 0;
+                background-color: red;
+            }
+        }
+    }
+}
